@@ -16,12 +16,15 @@ export default function RootLayout({ children }) {
       */}
       <head />
 
-      <body className={`${montserrat.className}`}>
-        <nav>
+      <body className={`${montserrat.className} mx-32 my-12`}>
+        <nav className="flex flex-row">
           <h1>logo</h1>
-          <ul>
+          <ul className="flex flex-row mx-10">
             <li>
-              <a href="#"> About</a>
+              <a href="#" className="mx-3">
+                {' '}
+                About
+              </a>
             </li>
             <li>
               <a href="#"> Sign-Up</a>
